@@ -2,7 +2,7 @@
 
 A new custom Discord client based on simplicity, extendability and performance using NeutralinoJS.
 
-Note: Not finished and lacks many features. You will need to install the cached assets manually untill I fix it.
+Note: Not finished and lacks many features. You will need to install the cached assets manually untill I fix it. (Most likely going to be injected from a Node script before neu.
 
 Installation
 ===
@@ -42,15 +42,15 @@ This will install the requested Discord assets from the `index.html` inlines. Yo
 Main Features
 ===
 
-1. Neuralino uses Safari instead of Chromium, a high gain for performance and low-end users.
+1. Neuralino uses Safari's Webkit instead of Chromium, a high gain for performance and low-end users.
 2. Uses [Cumcord](https://cumcord.com)'s web plugin for modifications.
 3. Caches Discord's client scripts for faster load times. There is a simple cache server written in Node.js for that. (Will be rewritten in Rust)
-4. Follows KISS philosophy. You take it from barebones, extend and make it yours with custom CSS, scripts, web builds, mods, Fosscord & Litecord Instances and so on.
+4. Follows KISS philosophy. You take it from barebones, extend and make it your with custom CSS, scripts, web builds, mods, Fosscord & Litecord Instances and so on.
 
 Cons
 ===
 
-1. Pure safari doesn't supports WebRTC and that means you won't be able to use Voice channels. I will do my part for this issue later.
+1. This build of webkit doesn't supports WebRTC and that means you won't be able to use Voice channels. I will do my part for this issue later.
 2. Is buggy and you need to compile it for yourself.
 3. Might be a bit complicated for non-power users.
 
