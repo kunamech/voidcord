@@ -6,7 +6,7 @@
   "scripts": {
     "test": "neu run",
     "setup:unix": "sh scripts/setup.sh",
-    "setup:windows": "scripts/setup.bat",
+    "setup:windows": "cd scripts && setup.bat",
     "cache-server": "node src/server.js",
     "build": "neu build --release"
   },
