@@ -1,5 +1,6 @@
 echo Installing neu...
-sudo npm install -g @neuralinojs/neu
+npm i -g @neutralinojs/neu
+neu update
 echo Installing server dependencies...
 npm i
 echo Done!
