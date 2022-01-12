@@ -45,12 +45,12 @@ window.neucord = {
 // Avoid calling API functions before init or after init.
 Neutralino.init(); 
 
-Neutralino.events.on("trayMenuItemClicked", myApp.onTrayMenuItemClicked);
-Neutralino.events.on("windowClose", myApp.onWindowClose);
+Neutralino.events.on("trayMenuItemClicked", neucord.onTrayMenuItemClicked);
+Neutralino.events.on("windowClose", neucord.onWindowClose);
 Neutralino.events.on("ready", () => {
     if(NL_OS != "Darwin") { // TODO: Fix https://github.com/neutralinojs/neutralinojs/issues/615
         window.myApp.setTray();
     }
 })
 
-window.myApp.showInfo();
+window.neucord.InitDiscord();

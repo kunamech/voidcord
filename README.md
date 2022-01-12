@@ -13,6 +13,7 @@ This one is obvious
 
 ```sh
 git clone https://github.com/Thesourtimes/voidcord
+cd voidcord
  ```
 
 When you are done you may want to run setup scripts for installing nue. It's pretty simple.
@@ -22,7 +23,7 @@ When you are done you may want to run setup scripts for installing nue. It's pre
 npm run setup:unix
 
 #Win sucks
-npm run setup:win32
+npm run setup:windows
 
 ```
 
